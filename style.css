@@ -71,10 +71,12 @@ body
     color: #fff;
     text-decoration: none;
 }
-.img-fluid
+/* .img-fluid
 {
-    margin-bottom: 20px;
-}
+    margin-bottom: 5px;
+    width:400px;
+    height:400px;
+} */
 .wave1
 {
     width: 100%;
