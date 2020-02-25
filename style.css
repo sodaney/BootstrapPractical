@@ -1,6 +1,16 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
 #nav-bar
 {
     position: sticky;
+    top: 0;
     z-index: 10;
 }
 .navbar
@@ -13,7 +23,6 @@
     color: lightgreen !important;
     font-weight: 500;
     font-family: 'Trade Winds';
-    
 }
 
 .navbar-nav li a
@@ -31,12 +40,13 @@
 .fa-bars
 {
     color: white;
-    font-size: 30px;
+    font-size: 30px !important;
 }
 .navbar-toggler
 {
     outline: none !important;
 }
+/*Banner section*/
 #banner
 {
     background-image: linear-gradient(to right,#a517ba, #5f1782);
@@ -49,7 +59,24 @@
     font-weight: 600;
     margin-top: 100px;
 }
-.first-link
+.playbtn
 {
-    color: black;
+    width: 45px;
+    margin: 20px;
+    color: #fff;
+}
+
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.img-fluid
+{
+    margin-bottom: 20px;
+}
+.wave1
+{
+    width: 100%;
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
 }
